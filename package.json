@@ -1,0 +1,39 @@
+{
+  "name": "calculator-simulator",
+  "version": "0.0.1",
+  "description": "A Discord bot that runs a game with which you can \"farm\" your in-game money and raise your balance up and up to infinity",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azator-Entertainment/calculator-simulator.git"
+  },
+  "keywords": [
+    "calculator",
+    "game",
+    "simulator",
+    "discord",
+    "bot"
+  ],
+  "contributors": [
+    "PetyXbron (petyxbronyt@email.cz)",
+    "Arnackist"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Azator-Entertainment/calculator-simulator/issues"
+  },
+  "homepage": "https://github.com/Azator-Entertainment/calculator-simulator#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.3.2",
+    "ms": "^2.1.3"
+  }
+}
